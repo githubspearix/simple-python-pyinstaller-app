@@ -11,9 +11,7 @@ pipeline {
                 IMAGE = 'cdrx/pyinstaller-linux:python2'
             }
             steps {
-                dir(path: env.BUILD_ID) { 
-                    bat 'pyinstaller -F add2vals.py'
-                }
+                bat 'sources/build.bat'
             }
             post {
                 success {
