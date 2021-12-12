@@ -13,7 +13,7 @@ pipeline {
             steps {
                 dir(path: env.BUILD_ID) { 
                     unstash(name: 'compiled-results') 
-                    pyinstaller -F add2vals.py
+                    bat 'pyinstaller -F add2vals.py'
                 }
             }
             post {
