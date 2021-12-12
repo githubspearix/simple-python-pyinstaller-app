@@ -5,6 +5,8 @@ the calc.py library's 'add2' function.
 
 import sys
 import calc
+import pyserial
+
 
 argnumbers = len(sys.argv) - 1
 
