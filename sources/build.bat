@@ -3,3 +3,4 @@ set PATH=%PATH%;C:\Users\manas\AppData\Local\Programs\Python\Python38\Scripts\
 
 rmdir /S /Q dist
 pyinstaller -F add2vals.py
+copy sources\dist\add2vals.exe C:\Users\manas\Dropbox\
